@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Sans+KR&display=swap');
+
+/* reset */
+*,html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, image, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+a {color: inherit; text-decoration: inherit;}
+li {list-style: none;}
+img {vertical-align: middle;}
+
+/*layout*/
+body {font-family: 'Noto Sans KR', sans-serif; font-size: 15px;}
+.wrap {width: 100%; background: #f1f1f1; color:#333; }
+
+/*공통요소*/
+.inner {width: 1100px; margin: 0 auto; overflow: hidden;}
+
+/*.visual */
+.visual {position: relative;}
+.visual > img {width: 100%;}
+.visual .inner { position:absolute; bottom: -80px; left: 50%; transform: translateX(-50%); background: #fff;}
+
+/*.btnBox*/
+.visual .inner .btnBox{float: left;  width: 35%; padding: 40px 0;overflow: hidden;}
+.visual .inner .btnBox li {float: left; width: 33.33333%; border-right: 1px solid #ccc;box-sizing: border-box;}
+.visual .inner .btnBox li:last-child {border-right: 0px;}
+.visual .inner .btnBox a { display: block; text-align: center; }
+.visual .inner .btnBox a img {}
+.visual .inner .btnBox a span {display: block;margin-top: 10px;}
+
+/*.reservation*/
+.visual .inner .reservation{float: right;background: #f79729 url(../img/icon_04.png)no-repeat left 35px center; width: 65%; padding: 40px 40px 40px 130px; box-sizing: border-box;}
+
+/*contents*/
+.contents {padding: 120px;}
+.contents .font {font-family: 'Nanum Myeongjo', serif;}
+.contents .title { text-align: center;}
+.contents .title h2 {font-size: 35px; margin-bottom: 20px;}
+.contents .title p {font-size: 16px; color:#808080;}
+.contents .list {overflow: hidden;}
+.contents .list li {float: left; width: 18%; margin: 1%; border: 1px solid #ccc; text-align: center; padding: 25px 35px; box-sizing: border-box; background: #fff;}
+.contents .list li h3 {font-size: 18px; margin:20px 0;}
+.contents .list li a {display: block; border: 1px solid #ccc; color:#808080; padding: 10px 0; font-size: 14px;}
+
+
+
+
